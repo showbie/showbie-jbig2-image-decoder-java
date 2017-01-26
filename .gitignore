@@ -1,1 +1,11 @@
+#vim
+.*.swp
+
+#eclipse
 /build
+/.classpath
+/.settings/
+/.project
+
+#maven
+/target/
