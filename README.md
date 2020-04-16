@@ -15,3 +15,18 @@ In some examples a speed up by factor 4.5 was observed.
 
 There is still lot of room for improvements especially in the combine method 
 in JBIG2Bitmap, which is most time consuming. 
+
+## Showbie Maven Central
+ ```xml
+<dependency>
+    <groupId>com.showbie</groupId>
+    <artifactId>showbie-jbig2-image-decoder</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
+```
+
+Publishing to Showbie's github maven central please ensure you created your personal access token. Follow these instructions located here: https://github.com/showbie/maven-central-repository
+
+To publish enter the following command:
+
+GITHUB_REGISTRY_USERNAME=<username> GITHUB_REGISTRY_TOKEN=<your personal access token> mvn deploy
