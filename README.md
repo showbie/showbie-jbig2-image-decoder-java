@@ -17,13 +17,8 @@ There is still lot of room for improvements especially in the combine method
 in JBIG2Bitmap, which is most time consuming. 
 
 ## Showbie Maven Central
- ```xml
-<dependency>
-    <groupId>com.showbie</groupId>
-    <artifactId>showbie-jbig2-image-decoder</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-</dependency>
-```
+
+https://github.com/showbie/maven-central-repository/packages/187083
 
 Publishing to Showbie's github maven central please ensure you created your personal access token. Follow these instructions located here: https://github.com/showbie/maven-central-repository
 
